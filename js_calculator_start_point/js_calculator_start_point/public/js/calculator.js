@@ -77,7 +77,7 @@ Calculator.prototype = {
     this.newTotal = true;
   },
 
-  clearClick: function() {
+  numberClick: function() {
     if (this.runningTotal == 0) {
       this.previousOperator = null;
       this.previousTotal = null;
