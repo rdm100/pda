@@ -17,11 +17,11 @@ class CardGame
 
   def highest_card(card1, card2)
     if card1.value > card2.value
-      return "card1"
+      return card1
     elsif card1.value == card2.value
       return "equal"
     else
-      return "card2"
+      return card2
     end
   end
 

@@ -30,8 +30,9 @@ class TestAlbum < MiniTest::Test
 
   def test_highest_card()
     #result = CardGame.check_for_ace(@card1) #if using .self on the method in the CardGame class
+    #result = @cardGame1.highest_card(@card1, @card2)
     result = @cardGame1.highest_card(@card1, @card2)
-    assert_equal("card2", result)
+    assert_equal(@card2, result)
   end
 
   def test_highest_card__equal
