@@ -23,7 +23,7 @@ class CardGame
 #def spelt wrong "dif"
   dif highest_card(card1 card2)#there should be a "," between the parameters 
   if card1.value > card2.value
-    return card.name #should return card1, name is not a method
+    return card.name #should return card1
   else
     card2 #should return card2
   end
